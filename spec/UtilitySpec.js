@@ -5,3 +5,9 @@ describe("utility functions", function() {
     });
   });
 });
+
+describe("ageInYears()", () => {
+  it("returns the age from the birthday", () => {
+    expect(ageInYears("1980-05-17")).toEqual(37);
+  })
+});
